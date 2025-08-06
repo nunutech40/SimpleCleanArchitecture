@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class Injection: NSObject {
+final class Injection {
     
     private func provideDataSource() -> MessageDataSourceProtocol {
         return MessageDataSource()
